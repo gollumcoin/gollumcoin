@@ -95,8 +95,6 @@ WalletView::~WalletView()
 void WalletView::setBitcoinGUI(BitcoinGUI *gui)
 {
     this->gui = gui;
-    gui->setStyleSheet("background-color: black;");
-   
 }
 
 void WalletView::setClientModel(ClientModel *clientModel)
